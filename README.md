@@ -53,7 +53,7 @@ To set it up:
 - Use the provided `database.sql` file  
 - Open your MySQL tool (Workbench, phpMyAdmin, or terminal)
 - Import `database.sql` to automatically create:
-  - A database: `foodbilling`
+  - A database: `food_world`
   - A table: `bills`
 
 Example using terminal:
@@ -67,7 +67,7 @@ mysql -u your_username -p < database.sql
 
 ### 3. Update Your Database Credentials
 
-In `foodbilling.py`, make sure to enter your MySQL credentials:
+In `tkinter billing system (1).py`, make sure to enter your MySQL credentials:
 ```python
 mysql.connector.connect(
   host="localhost",
